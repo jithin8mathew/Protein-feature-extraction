@@ -12,10 +12,10 @@ Protein feature extraction is carried out using Biopython package
 6. instability_index
 
 Packages required (other than built-in) for the execution of code...
-*Pandas
-*pickle
-*Biopython
-*subprocess
+-Pandas
+-pickle
+-Biopython
+-subprocess
 
 Steps to run the code..
 1. Add fasta file containing positive sequences with the file name "positive_training.fasta" to the "data" folder
