@@ -11,7 +11,9 @@ if os.path.exists(_):data=pd.read_table(_)		#read the file as Pandas DataFrame
 
 seq_list, cls_list=data['sequence'].tolist(), data['class'].tolist() # get the sequence and class to lists
 
-pth=(path_+"\\data\\output\\")		
+pth=(path_+"\\data\\output\\")
+if not os.path.exists(pth):os.makedirs(pth)
+	
 try:[os.remove(filenames[0]+x) for filenames in os.walk(pth) for x in (filenames[2])]		# remove the file if already exist 
 except Exception:pass
 
