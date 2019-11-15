@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.6.8"
+  # PyPy versions
+  - "pypy3"  # currently Python 3.6.8,  PyPy 7.1.1-beta0
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install .
