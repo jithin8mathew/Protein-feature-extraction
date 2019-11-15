@@ -1,9 +1,11 @@
+[![Build Status](https://travis-ci.org/jithin8mathew/Protein_feature_extraction.svg?branch=master)](https://travis-ci.org/jithin8mathew/Protein_feature_extraction)
+<br>
 # Protein_feature_extraction
 Python code to extract features from Protein sequences for Machine Learning/Deep Learning
 
 Protein feature extraction is carried out using Biopython package
 
-**Features inculde: 
+**Features inculde:
 1. AA-count
 2. aromaticity
 3. secondary_structure_fraction
@@ -20,7 +22,7 @@ Packages required (other than built-in) for the execution of code...
 Steps to run the code..
 1. Add fasta file containing positive sequences with the file name "positive_training.fasta" to the "data" folder
 2. Add fasta file containing negative sequences with the file name "negative_training.fasta" to the "data" folder
-3. Run ML.py script* 
+3. Run ML.py script*
 4. The output will be saved in /data/output/ folder in three different file formats upon the successful execution of the code
 
 *Although you could also run process_fasta.py and feature_extraction.py individually in the respective order
