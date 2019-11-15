@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/jithin8mathew/Protein_feature_extraction.svg?branch=master)](https://travis-ci.org/jithin8mathew/Protein_feature_extraction)
 <br>
-# Protein_feature_extraction
+# Protein Feature Extraction for Machine Learning
 Python code to extract features from Protein sequences for Machine Learning/Deep Learning
 
 Protein feature extraction is carried out using Biopython package
