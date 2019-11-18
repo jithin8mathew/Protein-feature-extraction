@@ -8,6 +8,5 @@ before_install:
   - pip install -U pytest
 install:
   - pip install -r requirements.txt
-  - pip install cython
 
-script: pytest
+script: python3 ML.py
