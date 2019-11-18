@@ -6,7 +6,11 @@ before_install:
   - python --version
   - pip install -U pip
   - pip install -U pytest
+  - pip install codecov
 install:
   - pip install -r requirements.txt
 
-script: python3 ML.py
+script: python3 ML.py --cov=Protein-feature-extraction
+
+after_success:
+  - codecov
