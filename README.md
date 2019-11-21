@@ -1,10 +1,18 @@
-[![Build Status](https://travis-ci.org/jithin8mathew/Protein_feature_extraction.svg?branch=master)](https://travis-ci.org/jithin8mathew/Protein_feature_extraction)
+[![Build Status](https://travis-ci.org/jithin8mathew/Protein-feature-extraction.svg?branch=master)](https://travis-ci.org/jithin8mathew/Protein-feature-extraction)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/jithin8mathew/Protein-feature-extraction/branch/master/graph/badge.svg)](https://codecov.io/gh/jithin8mathew/Protein-feature-extraction)
 [![GitHub version](https://badge.fury.io/gh/jithin8mathew%2FProtein-feature-extraction.svg)](https://badge.fury.io/gh/jithin8mathew%2FProtein-feature-extraction)
+<<<<<<< HEAD
 <br>
 
 # Protein Feature Extraction for Machine Learning
+=======
+
+
+<br>
+## Protein Feature Extraction for Machine Learning
+<br>
+>>>>>>> 2e18041703fe28039ff47eebdcfd0039f0f1379b
 Python code to extract features from Protein sequences for Machine Learning/Deep Learning
 
 Protein feature extraction is carried out using Biopython package

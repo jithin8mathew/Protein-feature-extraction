@@ -11,7 +11,11 @@ install:
   - pip install -r requirements.txt
 
 script: python3 ML.py --cov=Protein-feature-extraction
+<<<<<<< HEAD
  - coverage run ML.py
+=======
+  - coverage run ML.py
+>>>>>>> 2e18041703fe28039ff47eebdcfd0039f0f1379b
 
 after_success:
   - codecov
