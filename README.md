@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/jithin8mathew/Protein_feature_extraction.svg?branch=master)](https://travis-ci.org/jithin8mathew/Protein_feature_extraction)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <br>
+
 # Protein Feature Extraction for Machine Learning
 Python code to extract features from Protein sequences for Machine Learning/Deep Learning
 
@@ -19,6 +20,22 @@ Packages required (other than built-in) for the execution of code...
 -pickle
 -Biopython
 -subprocess
+
+## Installation
+For windows
+'''
+pip install discere
+'''
+For linux
+'''
+pip3 install discere
+'''
+
+## Usage
+
+'''
+from discere import discere
+'''
 
 Steps to run the code..
 1. Add fasta file containing positive sequences with the file name "positive_training.fasta" to the "data" folder

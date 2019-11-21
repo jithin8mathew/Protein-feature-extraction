@@ -1,9 +1,4 @@
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
-
-import versioneer
+from setuptools import setup
 
 README_MD = ''
 with open('README.md') as f:
@@ -12,32 +7,18 @@ with open('README.md') as f:
 INSTALL_REQUIRES = [
     'pandas', 'biopython'
 ]
-# TEST_REQUIRES = [
-#     # testing and coverage
-#     'pytest', 'coverage', 'pytest-cov',
-#     # non-testing packagesrequired by tests, not by the package
-#     'scikit-learn', 'pdutil',
-#     # to be able to run `python setup.py checkdocs`
-#     'collective.checkdocs', 'pygments',
-# ]
 
 setup(
-    name='#############################',
+    name='discere',
     description="Protein Feature Extraction package for Machine Learning",
     long_description=README_MD,
     author="Jithin Mathew",
     author_email="jithinjm1995@gmail.com",
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version='0.0.1',
     url='https://github.com/jithin8mathew/Protein-feature-extraction',
     license="MIT",
-    packages=['#############################'],
+    packages=['discere'],
     install_requires=INSTALL_REQUIRES,
-    # extras_require={
-    #     'sklearn': ['scikit-learn', 'skutil'],
-    #     'nltk': ['nltk'],
-    #     'test': TEST_REQUIRES
-    # },
     setup_requires=INSTALL_REQUIRES,
     platforms=['any'],
     keywords='feature extraction protein sequence bioinformatics machine learning deep learning',
@@ -48,8 +29,10 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
+        'Operating System :: OS Independent',
     ],
 )
