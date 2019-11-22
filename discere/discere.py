@@ -1,14 +1,8 @@
 import subprocess
 import sys
+from process_fasta import process_fasta
 
 system = sys.platform
-
-def fasta_process():
-	print("Processing fasta files....")
-	if system == 'linux':
-		subprocess.run(['python3','process_fasta.py'])
-	else:
-		subprocess.run(['python.exe','process_fasta.py'])
 
 def feat_ext():
 	print("Extracting features....")
@@ -17,10 +11,16 @@ def feat_ext():
 	else:
 		subprocess.run(['python.exe','process_fasta.py'])
 
+def extract_feature(positive, negative):
+	code = process_fasta(positive, negative)
+	if code is True:
+		try:
+			feat_ext()
+		except Exception:
+			print('Failed to extract feautres... \n Code exiting with incomplete termination...')
+	else:print('Error processing the fasta files !')
+
 if __name__ == '__main__':
-	fasta_process()
-	feat_ext()
-	print("Feature extraction complete...")
-	print("Extracted features are saved in data/output directory in .txt, .arff and .csv formats")
+	extract_feature(positive, negative)
 	import os
 	print("Have a great day ",os.getlogin(), "!")

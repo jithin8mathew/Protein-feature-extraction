@@ -39,13 +39,9 @@ pip3 install discere
 ## Usage
 
 ```
-from discere import discere
+import discere
+
+discere.extract_feature('positive_training.fasta', 'negative_training.fasta')
+
 ```
-
-Steps to run the code..
-1. Add fasta file containing positive sequences with the file name "positive_training.fasta" to the "data" folder
-2. Add fasta file containing negative sequences with the file name "negative_training.fasta" to the "data" folder
-3. Run ML.py script*
-4. The output will be saved in /data/output/ folder in three different file formats upon the successful execution of the code
-
-*Although you could also run process_fasta.py and feature_extraction.py individually in the respective order
+## output
