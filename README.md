@@ -30,11 +30,11 @@ Packages required (other than built-in) for the execution of code...
 ## Installation
 For windows
 ```
-**pip install discere**
+pip install discere
 ```
 For linux
 ```
-**pip3 install discere**
+pip3 install discere
 ```
 
 ## Usage
