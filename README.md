@@ -40,9 +40,9 @@ pip3 install discere
 ## Usage
 
 ```
-import discere
+import discere.discere as di
 
-discere.extract_feature('positive_training.fasta', 'negative_training.fasta')
+di.extract_feature('./Documents/positive_training.fasta', './Documents/negative_training.fasta', './Documents')
 
 ```
 ## output
