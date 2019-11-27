@@ -2,7 +2,7 @@ from setuptools import setup
 
 README_MD = ''
 with open('README.md') as f:
-    README_RST = f.read()
+    README_MD = f.read()
 
 INSTALL_REQUIRES = [
     'pandas', 'biopython'

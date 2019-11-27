@@ -2,28 +2,32 @@
 import itertools as it
 import os,pickle
 import pandas as pd
+import shutil, pkg_resources
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 
-def feature_extraction(outdir):
-	path_=os.getcwd()		# get the current working directory
+def feature_extraction(outdir=os.getcwd()):
+	path_ = outdir
 	_=(os.path.join(path_,"data/data.txt"))		# path to input data (sequence) folder
 
 	print('Reading data...')
 	if os.path.exists(_):data=pd.read_table(_)		#read the file as Pandas DataFrame
 	print('Clearing existing files...')
-	try:[os.remove(filenames[0]+x) for filenames in os.walk(path_+'/data/') for x in (filenames[2])]		# remove the file if already exist
-	except Exception:pass
+	shutil.rmtree(path_+"/data")
 
 	seq_list, cls_list=data['sequence'].tolist(), data['class'].tolist() # get the sequence and class to lists
 
-	pth=outdir+'/'
+	pth=path_+'/output/'
+	print(pth)
 	if not os.path.exists(pth):os.makedirs(pth)
 
-	try:[os.remove(filenames[0]+x) for filenames in os.walk(pth) for x in (filenames[2])]		# remove the file if already exist
-	except Exception:pass
+	#try:[os.remove(filenames[0]+x) for filenames in os.walk(pth) for x in (filenames[2])]		# remove the file if already exist
+	#except Exception:pass
+	p='/config/attrib'
+	filepath = pkg_resources.resource_filename(__name__, p)
+	attr=open(filepath,"rb")
 
-	attr=open(path_+"/config/attrib","rb")
 	attr=pickle.load(attr)		# load the pickle file with attribue names (for weka)
+	print(attr)
 	with open(pth+"/weka_output.arff","a+") as wk: wk.write("".join('{}\n'.format(x) for x in attr))
 
 	def format_output(aa_count,cnt):				 # write the extracted feature values to arff (weka), txt(svm) and csv file
