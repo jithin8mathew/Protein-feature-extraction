@@ -38,10 +38,10 @@ pip3 install discere
 ```
 
 ## Usage
-.. code-block:: python
 
+```
   import discere.discere as di
   di.extract_feature('./Documents/positive_training.fasta', './Documents/negative_training.fasta', './Documents')
-
+```
 
 ## output
