@@ -31,11 +31,15 @@ Packages required (other than built-in) for the execution of code...
 
 ## Installation
 For windows
-```
+Windows users have to specify the path to fasta files and output folder in linux style of referencing directory using ```/``` slash rather than ```\```
+eg ```C:/folder_name/file_name.fasta```
+This issue will be fixed in future updates
+
+```python 
 pip install discere
 ```
 For linux
-```
+```python
 pip3 install discere
 ```
 
@@ -48,6 +52,7 @@ pip3 install discere
                      './Documents/negative_training.fasta', 
                      './Documents')
 ```
+di.extract_feature(input_file1, input_file2, output_directory)
 
 ## output
 
