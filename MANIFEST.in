@@ -1,1 +1,6 @@
+include *.in
 include *.txt
+recursive-include discere/features/ *
+recursive-include discere *.py
+graft preprocessing 
+graft features

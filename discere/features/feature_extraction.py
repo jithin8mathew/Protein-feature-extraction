@@ -17,7 +17,6 @@ def feature_extraction(outdir=os.getcwd()):
 	seq_list, cls_list=data['sequence'].tolist(), data['class'].tolist() # get the sequence and class to lists
 
 	pth=path_+'/output/'
-	print(pth)
 	if not os.path.exists(pth):os.makedirs(pth)
 
 	#try:[os.remove(filenames[0]+x) for filenames in os.walk(pth) for x in (filenames[2])]		# remove the file if already exist
@@ -27,7 +26,6 @@ def feature_extraction(outdir=os.getcwd()):
 	attr=open(filepath,"rb")
 
 	attr=pickle.load(attr)		# load the pickle file with attribue names (for weka)
-	print(attr)
 	with open(pth+"/weka_output.arff","a+") as wk: wk.write("".join('{}\n'.format(x) for x in attr))
 
 	def format_output(aa_count,cnt):				 # write the extracted feature values to arff (weka), txt(svm) and csv file

@@ -14,8 +14,8 @@ setup(
     long_description=README_MD,
     author="Jithin Mathew",
     author_email="jithinjm1995@gmail.com",
-    version='0.0.2',
-    long_description=long_description,
+    version='0.0.5',
+    include_package_data=True,
     long_description_content_type="text/markdown",
     url='https://github.com/jithin8mathew/Protein-feature-extraction',
     license="MIT",
@@ -35,6 +35,7 @@ setup(
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Intended Audience :: Developers',
+        'Intended Audience :: Education',
         'Operating System :: OS Independent',
     ],
 )
