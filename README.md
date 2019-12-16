@@ -57,3 +57,6 @@ di.extract_feature(input_file1, input_file2, output_directory)
 ## output
 
 Outputs are stored in user_specified_path/output in .txt, .arff and .csv formats 
+
+![Output](https://drive.google.com/open?id=16YQvKEXc5DOBJdGH0y-XTggSJj9Q1bUG)
+(url)
