@@ -15,7 +15,7 @@ Python code to extract features from Protein sequences for Machine Learning/Deep
 
 Protein feature extraction is carried out using Biopython package
 
-**Features inculde:
+## Features inculde:
 1. AA-count
 2. aromaticity
 3. secondary_structure_fraction
