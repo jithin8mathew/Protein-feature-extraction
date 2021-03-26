@@ -15,13 +15,13 @@ Python code to extract features from Protein sequences for Machine Learning/Deep
 
 Protein feature extraction is carried out using Biopython package
 
-## Features inculde:
-1. AA-count
-2. aromaticity
-3. secondary_structure_fraction
-4. isoelectric_point
-5. molecular_weight
-6. instability_index
+## Features (27 features):
+1. AA-count (20x features)
+2. aromaticity (1x)
+3. secondary_structure_fraction (3x)
+4. isoelectric_point (1x)
+5. molecular_weight (1x)
+6. instability_index (1x)
 
 Packages required (other than built-in) for the execution of code...
 -Pandas
