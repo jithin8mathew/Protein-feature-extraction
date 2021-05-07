@@ -3,7 +3,8 @@
 [![codecov](https://codecov.io/gh/jithin8mathew/Protein-feature-extraction/branch/master/graph/badge.svg)](https://codecov.io/gh/jithin8mathew/Protein-feature-extraction)
 [![GitHub version](https://badge.fury.io/gh/jithin8mathew%2FProtein-feature-extraction.svg)](https://badge.fury.io/gh/jithin8mathew%2FProtein-feature-extraction)
 [![GitHub issues](https://img.shields.io/github/issues/jithin8mathew/Protein-feature-extraction)](https://github.com/jithin8mathew/Protein-feature-extraction/issues)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/discere)
+<**![PyPI - Downloads](https://img.shields.io/pypi/dm/discere) **>
+[![Downloads](https://pepy.tech/badge/discere/week)](https://pepy.tech/project/discere)
 [![Downloads](https://pepy.tech/badge/discere/month)](https://pepy.tech/project/discere)
 [![Downloads](https://pepy.tech/badge/discere)](https://pepy.tech/project/discere)
 
