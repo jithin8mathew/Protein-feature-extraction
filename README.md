@@ -33,9 +33,8 @@ Packages required (other than built-in) for the execution of code...
 
 ### Top N features for identifying Insuliin protein sequence
 
-
 ![insulin_bestNfeatures](https://github.com/jithin8mathew/Protein-feature-extraction/tree/master/images/insulin_bestNfeatures.jpg)
-
+Format: ![Alt Text](url)
 
 ## Installation
 For windows
