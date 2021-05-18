@@ -31,6 +31,10 @@ Packages required (other than built-in) for the execution of code...
 -Biopython
 -subprocess
 
+### Top N features for identifying Insuliin protein sequence
+
+https://github.com/jithin8mathew/Protein-feature-extraction/tree/master/images/insulin_bestNfeatures.jpg
+
 ## Installation
 For windows
 Windows users have to specify the path to fasta files and output folder in linux style of referencing directory using ```/``` slash rather than ```\```
