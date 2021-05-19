@@ -17,6 +17,9 @@ Python code to extract features from Protein sequences for Machine Learning/Deep
 
 Protein feature extraction is carried out using Biopython package
 
+![Radar Plot](https://github.com/jithin8mathew/Protein-feature-extraction/blob/master/images/radarPlot_insulin.jpg)
+Format: ![](url)
+
 ## Features (27 features):
 1. AA-count (20x features)
 2. aromaticity (1x)
