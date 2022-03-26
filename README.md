@@ -9,6 +9,8 @@
 [![Downloads](https://pepy.tech/badge/discere)](https://pepy.tech/project/discere)
 
 [![Languages](https://img.shields.io/github/languages/count/jithin8mathew/Protein-feature-extraction?style=for-the-badge)](https://img.shields.io/github/languages/count/jithin8mathew/Protein-feature-extraction?style=for-the-badge)
+[![forks](https://img.shields.io/github/forks/jithin8mathew/Protein-feature-extraction?style=for-the-badge)](https://img.shields.io/github/forks/jithin8mathew/Protein-feature-extraction?style=for-the-badge)
+[![stars](https://img.shields.io/github/stars/jithin8mathew/Protein-feature-extraction?style=for-the-badge)](https://img.shields.io/github/stars/jithin8mathew/Protein-feature-extraction?style=for-the-badge)
 
 <br>
 
