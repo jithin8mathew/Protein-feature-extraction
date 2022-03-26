@@ -7,7 +7,8 @@
 [![Downloads](https://pepy.tech/badge/discere/week)](https://pepy.tech/project/discere)
 [![Downloads](https://pepy.tech/badge/discere/month)](https://pepy.tech/project/discere)
 [![Downloads](https://pepy.tech/badge/discere)](https://pepy.tech/project/discere)
-[[!Languages](https://img.shields.io/github/languages/count/jithin8mathew/Protein-feature-extraction?style=for-the-badge)](https://img.shields.io/github/languages/count/jithin8mathew/Protein-feature-extraction?style=for-the-badge)
+
+[![Languages](https://img.shields.io/github/languages/count/jithin8mathew/Protein-feature-extraction?style=for-the-badge)](https://img.shields.io/github/languages/count/jithin8mathew/Protein-feature-extraction?style=for-the-badge)
 
 <br>
 
